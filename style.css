@@ -10,7 +10,7 @@
 .mainContainer{
     background: 
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/image/imag2.avif');
+    url('./image/imag2.avif');
     display: flex;
     flex-direction: row;
     justify-content: center;
