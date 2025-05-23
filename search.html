@@ -5,35 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="mainContainer">
         <div class="container">
             <div class="header">
-                <div>Weather App</div>
             </div>
             <div>
-                <div class="box">
-                    <div class="picContainer">
-                        <img src="/image/weather.webp" alt="">
-                    </div>
-                    
-                    
-                    <div class="search1">
+            <div class="box">
+                <div>
+                <div class="app">Weather App</div>
+                <div class="hzb">
+                <div class="picContainer">
+                    <img src="/image/weather.png" alt="">
+                </div>
+                <div class="search1">
+                <form>
+                    <input type="text" id="text " placeholder="Search area">
+                </form>
+                </div>
+                </div>
+
+            <div>
+                <div class="place">GREATER NOIDA</div>
+                <div class="day">23 May , Friday</div>
+                <div class="temp">
+                    <div>21</div>
+                    <div class="cel">°C</div>
+                </div>
+                    <!-- <div class="sau">
                         
-                            <form>
-                                <input type="text" id="text " placeholder="Search area">
-                            </form>
-                    </div>
-                    <div>
-                    <div class="sau">
-                        <div class="detailBox"><strong>Temperature:</strong> 28°C</div>
                         <br>
                         <div class="detailBox"><strong>Humidity:</strong> 65%</div>
                         <br>
-                        
+                        <div class="detailBox"><strong>Wind:</strong> 10 km/h</div>
+                        <br>
                         <div class="detailBox"><strong>Condition:</strong> Sunny</div>
                         
+                    </div> -->
+                    <div class="humid">
+                        <div class="win">
+                        <div class="wi">HUMIDITY :
+                            <div class="h">50%</div>
+                        </div>
+                        <div class="wi">WIND :
+                            <div class="W">33 km/h</div>
+                        </div>
+                        </div>
+                        <div class="win">
+                        <div class="wi">CONDITION :
+                            <div class="con">Sunny</div>
+                        </div>
+                        <div class="wi">TIME :
+                            <div class="t">11:11 AM</div>
+                        </div>
+                        </div>
                     </div>
                     </div>
            
@@ -41,7 +70,7 @@
             </div>
             
             
-        </div>
+        </div>   
     </div>
 </body>
 </html>
